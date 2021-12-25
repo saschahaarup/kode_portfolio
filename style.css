@@ -1,0 +1,13 @@
+.liste{
+list-style: none;
+display: flex;
+flex-wrap: wrap;
+padding: 30px;
+gap: 180px;
+list-style: none;
+position: sticky;
+/* font-family: ; */
+font-size: 20px;
+color: pink;
+top: 20%;
+}
