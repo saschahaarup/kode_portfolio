@@ -1,13 +1,34 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* generel billede regel */
+img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+
+/* footer styling */
 .liste{
 list-style: none;
 display: flex;
 flex-wrap: wrap;
-padding: 30px;
-gap: 180px;
+padding: 50px;
+gap: 150px;
 list-style: none;
 position: sticky;
 /* font-family: ; */
-font-size: 20px;
-color: pink;
-top: 20%;
+font-size: 16px;
+background-color: rgb(54, 70, 54);
+}
+
+/* a hover farve*/
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(180, 204, 189);
 }
