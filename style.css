@@ -12,18 +12,28 @@ img {
 
 /* footer styling */
 .liste{
-list-style: none;
 display: flex;
 flex-wrap: wrap;
 padding: 50px;
 gap: 150px;
 list-style: none;
-position: sticky;
 /* font-family: ; */
 font-size: 16px;
 background-color: #20241d;
+position: sticky;
+text-decoration: none;
 }
 
+/* a hover farve*/
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(180, 204, 189);
+}
+
+/* forside */
 .section1{
     background-color:#454938;
     color: white;
@@ -42,19 +52,19 @@ background-color: #20241d;
     grid-template-columns: 1fr 1fr;
 }
 
-/* a hover farve*/
-a{
-    color: white;
-}
-
-a:hover{
-    color: rgb(180, 204, 189);
-}
-
-p{
+/* p tekster forside */
+.p1{
  padding: 30px;
+ grid-column: 1/2;
 }
 
+.p2{
+    padding: 30px;
+    grid-column: 2/3;
+   }
+
+
+/* billeder */ 
 .img_wood1{
     grid-column: 2/3;
 }
