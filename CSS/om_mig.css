@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* generel billede regel */
+img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+/* fonts */
+/* font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; */
+
+h2{
+    font-family: 'Antic Didone', serif;
+    /* font-family: 'Italiana', serif; */
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: 'Antic Didone', serif;
+    /* font-family: 'Italiana', serif; */
+    font-size: 1.5rem;
+}
+
+
+/* header styling */
+.liste{
+display: flex;
+flex-wrap: wrap;
+padding: 40px;
+gap: 150px;
+list-style-type: none;
+font-size: 16px;
+background-color: #20241d;
+position: sticky;
+font-family: 'Italiana', serif;
+}
+.headerlogo{
+    width: 150px;
+    position: relative;
+    top: -25px;
+}
+
+/* footer styling */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 140px;
+    /* font-family: ; */
+    font-size: 16px;
+    background-color: #20241d;
+    position: sticky;
+    color: white;
+    }
+
+/* a hover farve*/
+a{
+    color: white;
+}
+
+a:hover{
+    color: rgb(180, 204, 189);
+}
+
+/* forside */
+
+.section1{
+    background-color:#454938;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+
+.section2{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.sectionwrapper2{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    text-align: center;
+}
+
+.section3{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.section4{
+    background-color:#454938;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+/* hr styling */
+.hr_om_mig{
+    border-top: 2px solid white;
+}
