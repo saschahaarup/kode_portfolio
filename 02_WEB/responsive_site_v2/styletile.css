@@ -1,0 +1,400 @@
+/*INDEX:HTML*/
+
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+/*liste menu på række*/
+.liste {
+  gap: 10px;
+  list-style: none;
+  padding: 20px;
+  overflow-x: auto;
+  position: sticky;
+  top: 20px;
+}
+
+/*Splashbillede -firstsection*/
+#first_section {
+  width: 100%;
+  height: 100vh;
+  background-image: url(sascha_splashbillede.jpg);
+  background-size: cover;
+  background-position: 50% 40%;
+  padding: 0;
+  box-sizing: border-box;
+  margin: 0;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: #eeeeee;
+}
+
+.Logo {
+  font-family: "iceland";
+  font-size: 2rem;
+  padding: 20px;
+}
+
+.Ikon2 {
+  padding-top: 5px;
+  height: 50px;
+  width: 50px;
+}
+
+/* Tekst Splashbillede farve / placering -firstsection*/
+.splashtxt {
+  font-family: "Optima", sans-serif;
+  line-height: 1.4;
+  font-size: 0.8rem;
+  color: #ffffff;
+  text-align: center;
+  position: relative;
+  top: 217px;
+  margin: 50px;
+  overflow-wrap: break-word;
+}
+
+/*media - på splashtext */
+@media (min-width: 500px) {
+  .splashtxt {
+    font-size: 1rem;
+  }
+  .Myrobot {
+    top: 180px;
+    line-height: 1;
+  }
+}
+/* Overskrift h1*/
+.Myrobot {
+  font-family: "iceland", cursive;
+  font-size: 4.6rem;
+  color: #ffffff;
+  line-height: 1.5;
+  margin-bottom: 10px;
+  text-align: center;
+  position: relative;
+  top: 310px;
+  overflow-wrap: break-word;
+}
+
+/* robot_1 billede */
+@media (min-witdh: 500px) {
+  .robot_1 {
+    height: auto;
+    width: 400px;
+    overflow-wrap: normal;
+  }
+}
+/* Chose your robot */
+.chose {
+  line-height: 2;
+}
+/* billede - index.html */
+img {
+  width: 100%;
+  object-fit: cover;
+}
+/* main - index.html */
+main {
+  /*max-width: 1000px;*/
+  margin: 20px;
+}
+/* media/ tablet protrait - index.html */
+@media (orientation: portrait) and (min-witdh: 500px) {
+  #first_section {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+  }
+}
+/* media/sectionernes grid - index.html */
+@media (min-width: 600px) {
+  #second_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 20px;
+    padding: 40px;
+    margin: 20px;
+    line-height: 2;
+  }
+  #third_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    gap: 20px;
+    padding: 70px;
+    line-height: 2.5;
+  }
+  #fourth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 30px;
+    padding: 50px;
+    margin: 20px;
+    line-height: 2.5;
+  }
+  #fourth_section .col_wide {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    line-height: 2.5;
+  }
+  #fourth_section .element_3 {
+    order: 1;
+    gap: 30px;
+  }
+  #fifth_section .section_wrapper {
+    display: flex;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 50px;
+    margin: 20px;
+    line-height: 2.5;
+  }
+  #fifth_section .col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+  }
+  #sixth_section img {
+    height: 100%;
+  }
+  #sixth_section .section_wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+  }
+
+  /* billedernes placering i section 6 - index.html */
+  .image1 {
+    grid-column: 1/3;
+    grid-row: 1/3;
+  }
+  .image2 {
+    grid-column: 3/4;
+    grid-row: 1/2;
+  }
+  .image3 {
+    grid-column: 4/5;
+    grid-row: 1/2;
+  }
+  .image4 {
+    grid-column: 3/5;
+    grid-row: 2/3;
+  }
+  .image5 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+  .image6 {
+    grid-column: 2/5;
+    grid-row: 3/4;
+  }
+}
+
+/* Lavet af */
+.Lavetaf {
+  line-height: 4;
+}
+/*STYLETILE*/
+
+/* baggrund- styletile */
+html {
+  background-color: #eeeeee;
+}
+/* grid - styletile */
+@media (min-width: 1000px) {
+  #styletile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin-inline: 20px;
+  }
+}
+/* overskrift - styletile*/
+.headings {
+  grid-template-columns: 1/2;
+  color: #000163;
+  grid-row: span 3;
+}
+
+h1 {
+  font-family: "iceland", cursive;
+  font-size: 6rem;
+  color: #ffffff;
+  line-height: 1.25;
+  margin-bottom: 10px;
+  padding: 10px;
+}
+h2 {
+  font-family: "iceland", sans-serif;
+  font-size: 4rem;
+  line-height: 1.5;
+  color: #000000;
+  padding: 10px;
+}
+h3 {
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.125;
+  color: #1810b1;
+  padding: 10px;
+}
+h4 {
+  font-family: "Kelly Slab", sans-serif;
+  font-size: 2rem;
+  color: #000163;
+  margin-bottom: 10px;
+  line-height: 1.5;
+  padding: 10px;
+}
+
+/* p-tekst - styletile */
+p {
+  font-family: "Optima", sans-serif;
+  line-height: 1.4;
+  font-size: 1rem;
+  color: #000163;
+  padding: 10px;
+}
+
+/* brødtekst - styletile*/
+.paragraph {
+  grid-template-columns: 2/2;
+  color: #000163;
+}
+
+/* links - styletile*/
+ul.links {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+  list-style: none;
+  padding: 10px;
+  line-height: 2;
+}
+
+/* farver - styletile*/
+.colors {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+  color: #29484b;
+  list-style: none;
+  padding: 0;
+}
+.color {
+  height: 70px;
+  width: 70px;
+  border: 5px solid rgb(163, 162, 162);
+  border-radius: 5px;
+  padding: 10px;
+}
+.color_1 {
+  background: #ffffff;
+}
+.color_2 {
+  background: #eeeeee;
+}
+
+.color_3 {
+  background: #1810b1;
+}
+
+.color_4 {
+  background: #000163;
+}
+
+.color_5 {
+  background: #000120;
+}
+.colors {
+  display: flex;
+  flex-flow: wrap;
+  gap: 20px;
+}
+
+/* splashbillede - styletile*/
+.splashbillede {
+  grid-template-columns: 1/2;
+  color: #29484b;
+  width: 500px;
+}
+.splashbillede {
+  grid-column: 1/2;
+  color: #29484b;
+  width: 500px;
+  padding: 10px;
+}
+
+.img {
+  width: 60%;
+  max-width: 600px;
+}
+
+/* Ikon - styletile */
+.ikon2 {
+  max-width: 200px;
+  grid-template-columns: 2/2;
+  padding: 10px;
+}
+
+.Favicon-sascha.svg {
+  max-width: 100%;
+}
+
+/* Linjer - styletile */
+hr {
+  border: 0;
+  border-top: 3px solid #000163;
+  border-style: solid;
+}
+
+/* detaljer - styletile */
+.details {
+  font-size: 1rem;
+  font-family: "Optima", sans-serif;
+}
+
+/* farve skift på first & styletile - styletile*/
+a {
+  font-family: "Kelly Slab", sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  color: #000163;
+}
+
+a:hover {
+  color: #dbd9df;
+}
+
+/* få punkter væk fra liste - styletile */
+ul {
+  list-style: none;
+}
+
+/* footeren - styletile */
+.footer {
+  font-family: Optima;
+}
+
+/* media - styletile */
+@media (min-width: 600px) {
+  #styletile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    margin-inline: auto;
+    /* border: 1px solid red; */
+  }
+}

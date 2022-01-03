@@ -15,9 +15,16 @@ font-family: 'Italiana', serif; */
 
 h2{
     font-family: 'Antic Didone', serif;
-    /* font-family: 'Italiana', serif; */
+    /* font-family: 'Italiana', serif;*/
     font-size: 2.5rem;
 }
+
+h3{
+    font-family: 'Antic Didone', serif;
+    /* font-family: 'Italiana', serif; */
+    font-size: 1.5rem;
+}
+
 
 /* header styling */
 .liste{
@@ -31,7 +38,6 @@ background-color: #20241d;
 position: sticky;
 font-family: 'Italiana', serif;
 }
-
 .headerlogo{
     width: 150px;
     position: relative;
@@ -62,17 +68,15 @@ a:hover{
 
 /* forside */
 
-.splashbillede{
-    width: 100%;
-
-}
 .section1{
     background-color:#454938;
     color: white;
     padding: 50px;
     line-height: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    text-align: center;
 }
 
 .section2{
@@ -81,71 +85,63 @@ a:hover{
     padding: 50px;
     line-height: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
 }
 
-.sectionwrapper1{
-    display: grid;
-    justify-content: center;
-    background-color:#626453 ;
-    padding: 7px;
-    color: white;
-    top: 20px;
+.tekst_section2{
+    grid-column: 1/2;
 }
-.section2_h2{
-    position: relative;
-    top: 25px;
-}
-
 .section3{
-    background-color:#999C87;
+    background-color:#626453;
     color: white;
     padding: 50px;
     line-height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
 }
-
-/* p tekster forside */
-.p1{
- padding: 30px;
- grid-column: 1/2;
- grid-row: 1/2;
-}
-
-.p2{
-    padding: 30px;
-    grid-column: 2/3;
-    grid-row: 1/2;
-   }
-
-
-/* boks styling forside*/ 
-.kasse{
-    flex-wrap: wrap;
-    width: 300px;
-    height: 280px;
-    background-color: #20241d;
-    color: rgb(255, 255, 255);
-    font-size: 3.5rem;
-    list-style-type: none;
-    border-radius: 5px;
-    font-family: 'Antic Didone', serif;
-    text-align: left;
-
-}
-
-
-/* billeder */ 
-.img_wood1{
-    grid-column: 2/3;
-}
-
-.img_wood2{
+.tekst_section3{
     grid-column: 1/2;
 }
+.section4{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.section5{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.section6{
+    background-color:#454938;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+/* hr styling */
+hr{
+    border-top: 1px solid white;
+}
 
-/* ikoner */
+/* billeder styling */
+
+.img_sas1{
+    width: 50%;
+    grid-column: 2/3;
+}
 
 .instaikon{
     width: 10%;

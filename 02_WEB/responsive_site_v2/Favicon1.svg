@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="260" height="260" viewBox="0 0 260 260">
+  <defs>
+    <clipPath id="clip-Favicon">
+      <rect width="260" height="260"/>
+    </clipPath>
+  </defs>
+  <g id="Favicon" clip-path="url(#clip-Favicon)">
+    <rect width="260" height="260" fill="#050e53"/>
+    <text id="MR" transform="translate(7 35)" fill="#fff" font-size="165" font-family="Iceland-Regular, Iceland"><tspan x="20.787" y="124">MR</tspan></text>
+    <g id="Rectangle_1" data-name="Rectangle 1" transform="translate(8 9)" fill="none" stroke="#fff" stroke-width="1">
+      <rect width="244" height="242" stroke="none"/>
+      <rect x="0.5" y="0.5" width="243" height="241" fill="none"/>
+    </g>
+  </g>
+</svg>
