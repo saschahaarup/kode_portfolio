@@ -28,15 +28,15 @@ h3{
 
 /* header styling */
 .liste{
-display: flex;
-flex-wrap: wrap;
-padding: 40px;
-gap: 150px;
-list-style-type: none;
-font-size: 16px;
-background-color: #20241d;
-position: sticky;
-font-family: 'Italiana', serif;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 140px;
+    list-style-type: none;
+    font-size: 18px;
+    background-color: #20241d;
+    position: sticky;
+    font-family: 'Italiana', serif;
 }
 .headerlogo{
     width: 150px;

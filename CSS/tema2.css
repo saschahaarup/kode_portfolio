@@ -28,16 +28,16 @@ h3{
 
 /* header styling */
 .liste{
-display: flex;
-flex-wrap: wrap;
-padding: 40px;
-gap: 150px;
-list-style-type: none;
-font-size: 16px;
-background-color: #20241d;
-position: sticky;
-font-family: 'Italiana', serif;
-}
+        display: flex;
+        flex-wrap: wrap;
+        padding: 40px;
+        gap: 140px;
+        list-style-type: none;
+        font-size: 18px;
+        background-color: #20241d;
+        position: sticky;
+        font-family: 'Italiana', serif;
+        }
 .headerlogo{
     width: 150px;
     position: relative;
@@ -94,15 +94,16 @@ a:hover{
 }
 
 .responsive_site_v2{
-    width: 300px;
+    width: 200px;
     height: 100px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     list-style-type: none;
     border-radius: 5px;
     font-family: 'Antic Didone', serif;
     text-align: left;
+    overflow-wrap: break-word;
 
 }
 .section3{
