@@ -1,0 +1,819 @@
+/* skærm */
+#screen {
+  width: 100vw;
+  height: 56.25vw;
+  aspect-ratio: 16/9;
+  position: relative;
+  pointer-events: none;
+}
+
+#html {
+  pointer-events: none;
+}
+#body {
+  pointer-events: none;
+}
+/* spil*/
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+/* spille baggrund */
+#game_background {
+  background-image: url(playscreen.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+/* spille elementer */
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  overflow: hidden;
+  pointer-events: none;
+}
+#game_ui {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+/* strawberry */
+#strawberry_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 5/7;
+  top: 10%;
+  left: 17%;
+}
+#strawberry_sprite {
+  background-image: url(Strawberry.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-size: 250px 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* rasberry */
+#rasberry_container {
+  position: absolute;
+  width: 18%;
+  aspect-ratio: 400/400;
+  top: 30%;
+  left: 63%;
+}
+#rasberry_sprite {
+  background-size: 350px 400px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Rasberry.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* blueberry */
+#blueberry_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+  top: 1%;
+  left: 27%;
+}
+
+#blueberry_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Blueberry.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* choco */
+#choco_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+  top: 35%;
+  left: 20%;
+}
+#choco_sprite {
+  background-image: url(Choco.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-size: 250px 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* oreo */
+#oreo_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+  top: 17%;
+  left: 65%;
+}
+#oreo_sprite {
+  background-size: 350px 400px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Oreo.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* coockie */
+#coockie_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+  top: 1%;
+  left: 45%;
+}
+
+#coockie_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Cookie.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* cherry */
+#cherry_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+  top: 3%;
+  left: 65%;
+}
+#cherry_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Cherry.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* brocoli */
+#brocoli_container {
+  position: absolute;
+  width: 10%;
+  aspect-ratio: 400/400;
+  top: 25%;
+  left: 40%;
+}
+
+#brocoli_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Broccoli.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* cheese */
+#cheese_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+  top: 30%;
+  left: 55%;
+}
+
+#cheese_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* pizza */
+#pizza_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+  top: 10%;
+  left: 50%;
+}
+
+#pizza_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Pizza.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* fish */
+#fish_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 400/400;
+  top: 50%;
+  left: 58%;
+}
+
+#fish_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Fish.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* tomato */
+#tomato_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+  top: 51%;
+  left: 33%;
+}
+
+#tomato_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Tomato.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* spille foregrund */
+#game_foreground {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-image: url(svg/forgrund.svg);
+  top: 0%;
+  left: 0%;
+  background-size: cover;
+  pointer-events: none;
+}
+
+/* UI  */
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+/* Point*/
+#score_board {
+  width: 10%;
+  aspect-ratio: 160/150;
+  position: absolute;
+  top: 16%;
+  left: 84%;
+  background-image: url(Point.svg);
+  background-size: cover;
+}
+
+/* Liv */
+#energy_board {
+  width: 12%;
+  aspect-ratio: 300/200;
+  position: absolute;
+  top: 2%;
+  left: 86%;
+  background-size: cover;
+  background-image: url(3life.svg);
+}
+
+/* Tid */
+#time_board {
+  width: 12%;
+  aspect-ratio: 400/400;
+  position: absolute;
+  top: 4%;
+  left: 1.5%;
+  background-image: url(Time.svg);
+  background-size: cover;
+}
+
+/* start */
+
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  top: 0%;
+  left: 0%;
+}
+
+/* Game over */
+
+#game_over {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  top: 0%;
+  left: 0%;
+}
+
+/* Level complete */
+#level_complete {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  display: none;
+  top: 0%;
+  left: 0%;
+}
+
+/* animation fald for alle spille-elementer */
+/* brik 1 ---------------------------------------------------- */
+/* #strawberry_container {
+  animation-name: fald_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  width: 10%;
+
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+}
+/* når man klikker på den */
+/* #strawberry_sprite {
+  animation-name: drej_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+*/
+
+*/
+/* brik 2 ---------------------------------------------------- */
+/* #rasberry_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #rasberry_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+
+/* brik 3 ---------------------------------------------------- */
+/* #blueberry_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #blueberry_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+
+/* brik 4 ---------------------------------------------------- */
+/* #choco_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #choco_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* brik 5 ----------------------------------------------------  */
+/* #oreo_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #oreo_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* brik 6 ----------------------------------------------------  */
+/* #cookie_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #cookie_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* brik 7 ----------------------------------------------------  */
+/* #cherry_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #cherry_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* brik 8 ---------------------------------------------------- */
+#brocoli_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-delay: 2s;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+}
+/* når man klikker på den */
+#brocoli_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+}
+#brocoli_sprite {
+  animation-name: rotation1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation1_kf {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* brik 9 ---------------------------------------------------- */
+/* #cheese_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #cheese_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* #cheese_sprite {
+  animation-name: rotation1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation1_kf {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* brik 10---------------------------------------------------- */
+/* #pizza_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #pizza_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* #pizza_sprite {
+  animation-name: rotation1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation1_kf {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* brik 11 ---------------------------------------------------- */
+/* #fish_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #fish_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+/* #fish_sprite {
+  animation-name: rotation1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation1_kf {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* brik 12 ---------------------------------------------------- */
+/* #tomato_container {
+  animation-name: fald_kf;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+} */
+/* når man klikker på den */
+/* #tomato_sprite {
+  animation-name: zoomout_kf;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes zoomout_kf {
+  0% {
+    transform: scale(100%);
+  }
+  100% {
+    transform: scale(10%);
+  }
+} */
+
+/* #tomato_sprite {
+  animation-name: rotation1_kf;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+
+@keyframes rotation1_kf {
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+/* -------------- Java-script--------------------*/
+
+.forsvind {
+  animation-name: forsvind_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes forsvind_kf {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.fald {
+  animation-name: fald_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes fald_kf {
+  from {
+    transform: translateY(-450%);
+  }
+  to {
+    transform: translateY(450%);
+  }
+}
+
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes drej_kf {
+  0% {
+    transform: rotate(0);
+    scale: 100%;
+  }
+
+  100% {
+    transform: rotate(360deg);
+    scale: 0%;
+  }
+}
+
+.frys {
+  animation-play-state: paused;
+}

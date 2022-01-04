@@ -54,12 +54,12 @@ footer{
 /* a hover farve*/
 a{
     color: white;
-    list-style-type: none;
+    text-decoration: none;
 }
 
 a:hover{
     color: rgb(180, 204, 189);
-    list-style-type: none;
+    text-decoration: none;
 }
 
 /* forside */
@@ -86,16 +86,17 @@ a:hover{
     line-height: 50px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    gap: 40px;
 }
 .om_mig_knap{
     position: relative;
     left: 60px;
-    top: -140px;
-    width: 200px;
-    height: 80px;
+    top: -170px;
+    width: 180px;
+    height: 60px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     list-style-type: none;
     border-radius: 5px;
     font-family: 'Antic Didone', serif;
@@ -112,7 +113,7 @@ a:hover{
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.sectionwrapper1{
+.sectionwrapper2{
     display: grid;
     justify-content: center;
     background-color:#626453 ;
@@ -139,8 +140,11 @@ a:hover{
  padding: 30px;
  grid-column: 1/2;
  grid-row: 1/2;
- background-color: white;
- color: #20241d;;
+ /* background-color: white; */
+ color: #ffffff;
+ border-color: #626453;
+ border-radius: 5px;
+ border-style: solid;
  /* font-family: "Baskerville"; */
 }
 

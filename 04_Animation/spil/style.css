@@ -1,0 +1,551 @@
+/* skærm */
+#screen {
+  width: 100vw;
+  height: 56.25vw;
+  aspect-ratio: 16/9;
+  position: relative;
+}
+
+/* spil */
+#game {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+/* spille baggrund */
+#game_background {
+  background-image: url(playscreen.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+}
+
+/* spille elementer */
+#game_elements {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 10%;
+  left: 10%;
+  overflow: hidden;
+}
+
+/* UI  */
+#game_ui {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  pointer-events: none;
+}
+
+/* Point*/
+#score_board {
+  width: 10%;
+  aspect-ratio: 160/150;
+  position: absolute;
+  top: 16%;
+  left: 83%;
+  background-image: url(Point.svg);
+  background-size: cover;
+}
+
+#point {
+  top: 35%;
+  left: 1%;
+  color: rgb(238, 124, 198);
+  position: relative;
+  margin-left: 94%;
+  font-size: 3vw;
+}
+
+/* Liv */
+#energy_board {
+  width: 12%;
+  aspect-ratio: 300/200;
+  position: absolute;
+  top: 2%;
+  left: 86%;
+}
+
+#life1 {
+  aspect-ratio: 100/160;
+  background-image: url(liv1.svg);
+  background-size: cover;
+  position: absolute;
+  width: 6%;
+  left: 83.7%;
+  background-repeat: no-repeat;
+}
+#life2 {
+  aspect-ratio: 100/160;
+  background-image: url(liv2.svg);
+  background-size: cover;
+  position: absolute;
+  width: 6%;
+  left: 88.4%;
+  background-repeat: no-repeat;
+}
+#life3 {
+  aspect-ratio: 100/160;
+  background-image: url(liv3.svg);
+  background-size: cover;
+  position: absolute;
+  width: 6%;
+  left: 93.2%;
+  background-repeat: no-repeat;
+}
+
+.fjernet {
+  /* opacity: 70%; */
+  filter: grayscale(100%);
+}
+
+/* hide funktion */
+.hide {
+  display: none;
+}
+
+/* Tid */
+#time_board {
+  width: 9%;
+  aspect-ratio: 400/400;
+  position: absolute;
+  top: 8%;
+  left: 2%;
+  background-image: url(Time.svg);
+  background-size: cover;
+}
+
+.roter {
+  animation-name: roter;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+
+@keyframes roter {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* start */
+#start {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  aspect-ratio: 1618/922;
+  background-size: cover;
+  background-image: url(Start.svg);
+}
+
+#start_knap {
+  position: absolute;
+  top: 49%;
+  left: 42%;
+  padding: 2%;
+  width: 22%;
+  aspect-ratio: 600/300;
+  background-size: cover;
+  background-image: url(Play.svg);
+  background-repeat: no-repeat;
+}
+
+/*info skærm */
+#info {
+  position: absolute;
+  top: -0.5%;
+  left: 3%;
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+  background-image: url(Regler.svg);
+  aspect-ratio: 1401/886;
+}
+
+/* info knap */
+#info_knap {
+  position: absolute;
+  top: 55%;
+  left: 29%;
+  padding: 2%;
+  width: 28%;
+  aspect-ratio: 502/390;
+  background-size: cover;
+  background-image: url(reglerknap.svg);
+  background-repeat: no-repeat;
+  font-family: avenir;
+}
+
+/* Game over */
+#game_over {
+  position: absolute;
+  top: -0.5%;
+  left: 6.5%;
+  width: 85%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(Gameover.svg);
+  aspect-ratio: 1500/1000;
+}
+
+/* Level complete */
+#level_complete {
+  position: absolute;
+  top: -3%;
+  left: 2.5%;
+  width: 95%;
+  height: 100%;
+  background-size: cover;
+  background-image: url(Winner.svg);
+  aspect-ratio: 1498/994;
+}
+#level_complete_points {
+  position: absolute;
+  top: 71%;
+  width: 100%;
+  text-align: center;
+  font-family: Avenir;
+  font-size: 2vw;
+  color: rgb(235, 181, 214);
+}
+
+/* restart game */
+#reStart1 {
+  position: absolute;
+  top: 58%;
+  left: 35%;
+  padding: 2%;
+  width: 35%;
+  aspect-ratio: 560/350;
+  background-image: url(Tryagain.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#reStart2 {
+  position: absolute;
+  top: 70%;
+  left: 34%;
+  padding: 2%;
+  width: 28%;
+  aspect-ratio: 560/350;
+  background-image: url(Tryagain2.svg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* ---------------------------Strawberry element-------------------------- */
+#strawberry_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 5/7;
+  position: absolute;
+  width: 10%;
+}
+
+/* SVG*/
+#strawberry_sprite {
+  background-image: url(Strawberry.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-size: 250px 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/*---------------------------------rasberry element --------------------------------*/
+#rasberry_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+}
+
+#rasberry_sprite {
+  background-image: url(Rasberry.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*---------------------------------blueberry element --------------------------------*/
+#blueberry_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+}
+
+#blueberry_sprite {
+  background-image: url(Blueberry.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*---------------------------------oreo element --------------------------------*/
+#oreo_container {
+  position: absolute;
+  width: 15%;
+  aspect-ratio: 400/400;
+}
+
+#oreo_sprite {
+  background-image: url(Oreo.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/*---------------------------------choco element --------------------------------*/
+#choco_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+}
+
+#choco_sprite {
+  background-image: url(Choco.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+/*---------------------------------choco element --------------------------------*/
+#cookie_container {
+  position: absolute;
+  width: 12%;
+  aspect-ratio: 400/400;
+}
+
+#cookie_sprite {
+  background-image: url(Cookie.svg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+}
+
+/* ---------------------------------- brocli element -------------------------------*/
+#brocoli_container {
+  position: absolute;
+  width: 9%;
+  aspect-ratio: 400/400;
+}
+
+#brocoli_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Broccoli.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------------------- cheese element ---------------------------------*/
+#cheese_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 400/400;
+}
+
+#cheese_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Cheese.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------------------- fish element ---------------------------------*/
+#fish_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 400/400;
+}
+#fish_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Fish.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------------------- pizza element ---------------------------------*/
+#pizza_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 400/400;
+}
+#pizza_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Pizza.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ----------------------------------- tomat element ---------------------------------*/
+#tomato_container {
+  position: absolute;
+  width: 13%;
+  aspect-ratio: 400/400;
+}
+#tomato_sprite {
+  background-size: 400px 500px;
+  width: 100%;
+  height: 100%;
+  background-image: url(Tomato.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* ___________________Animations______________________________*/
+.fald {
+  animation-name: fald_kf;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  position: absolute;
+  width: 10%;
+}
+@keyframes fald_kf {
+  from {
+    transform: translateY(0%);
+  }
+  to {
+    transform: translateY(800%);
+  }
+}
+.forsvind {
+  animation-name: forsvind_kf;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes forsvind_kf {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+.frys {
+  animation-play-state: paused;
+}
+.drej {
+  animation-name: drej_kf;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-fill-mode: both;
+}
+@keyframes drej_kf {
+  0% {
+    transform: rotate(360) scale(0);
+  }
+  100% {
+    transform: rotate(360deg) scale(0);
+  }
+}
+
+/*------------------------If else *-------------------------*/
+
+/*_______________posiitioner / delay / speed_______________*/
+.pos1 {
+  top: -25%;
+  left: 25%;
+}
+.pos2 {
+  top: -25%;
+  left: 40%;
+}
+.pos3 {
+  top: -25%;
+  left: 35%;
+}
+.pos4 {
+  top: -25%;
+  left: 15%;
+}
+.pos5 {
+  top: -25%;
+  left: 57%;
+}
+.pos6 {
+  top: -25%;
+  left: 40%;
+}
+.pos7 {
+  top: -25%;
+  left: 15%;
+}
+.pos8 {
+  top: -25%;
+  left: 50%;
+}
+.pos9 {
+  top: -25%;
+  left: 60%;
+}
+.pos10 {
+  top: -25%;
+  left: 30%;
+}
+.delay1 {
+  animation-delay: 0s;
+}
+.delay2 {
+  animation-delay: 3s;
+}
+.delay3 {
+  animation-delay: 5s;
+}
+.delay4 {
+  animation-delay: 7s;
+}
+.delay5 {
+  animation-delay: 9s;
+}
+.delay6 {
+  animation-delay: 4s;
+}
+.speed1 {
+  animation-duration: 5s;
+}
+.speed2 {
+  animation-duration: 7s;
+}
+.speed3 {
+  animation-duration: 8s;
+}
+.speed4 {
+  animation-duration: 9s;
+}
+.speed5 {
+  animation-duration: 4s;
+}
+.speed6 {
+  animation-duration: 6s;
+}
+
+/*______________________________*/
