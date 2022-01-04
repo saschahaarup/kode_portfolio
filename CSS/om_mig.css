@@ -69,7 +69,7 @@ a:hover{
 /* forside */
 
 .section1{
-    background-color:#454938;
+    background-color: #454938;
     color: white;
     padding: 50px;
     line-height: 50px;
@@ -100,7 +100,7 @@ a:hover{
     grid-column: 1/2;
 }
 .section3{
-    background-color:#626453;
+    background-color: #626453;
     color: white;
     padding: 50px;
     line-height: 50px;
@@ -113,7 +113,7 @@ a:hover{
 }
 
 .section4{
-    background-color:#454938;
+    background-color:#999C87;
     color: white;
     padding: 50px;
     line-height: 50px;
@@ -128,11 +128,14 @@ a:hover{
 
 /* billeder styling */
 
-.img_sas1{
-    width: 50%;
+.img1{
+    width: 80%;
     grid-column: 2/3;
 }
-
+.img2{
+    width: 80%;
+    grid-column: 2/3;
+}
 .instaikon{
     width: 10%;
 }

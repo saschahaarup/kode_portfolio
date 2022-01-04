@@ -1,0 +1,166 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+/* generel billede regel */
+img {
+    max-width: 100%;
+    object-fit: cover;
+  }
+/* fonts */
+/* font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; */
+
+h2{
+    font-family: 'Antic Didone', serif;
+    /* font-family: 'Italiana', serif;*/
+    font-size: 2.5rem;
+}
+
+h3{
+    font-family: 'Antic Didone', serif;
+    /* font-family: 'Italiana', serif; */
+    font-size: 1.5rem;
+}
+
+
+/* header styling */
+.liste{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 40px;
+    gap: 140px;
+    list-style-type: none;
+    font-size: 18px;
+    background-color: #20241d;
+    position: sticky;
+    font-family: 'Italiana', serif;
+}
+.headerlogo{
+    width: 150px;
+    position: relative;
+    top: -25px;
+}
+
+/* footer styling */
+footer{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    gap: 140px;
+    /* font-family: ; */
+    font-size: 16px;
+    background-color: #20241d;
+    position: sticky;
+    color: white;
+    }
+
+/* a hover farve*/
+a{
+    color: white;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(180, 204, 189);
+    text-decoration: none;
+}
+
+/* forside */
+
+.section1{
+    background-color:#454938;
+    color: white;
+}
+
+.h2_section1{
+    position: relative;
+    top: -250px;
+    color: white;
+    text-align: center;
+}
+
+.h3_section1{
+    position: relative;
+    top: -168px;
+    color: white;
+    text-align: center;
+}
+.h3_section1_2{
+    position: relative;
+    top: -150px;
+    color: white;
+    text-align: center;
+}
+/* hr styling */
+.hr_section1{
+    position: relative;
+    top: -200px;
+    border: 1px solid white;
+    width: 80%; margin: 0 10% 0 10%;;
+}
+
+
+.section2{
+    background-color:#454938;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+
+.tekst_section2{
+    grid-column: 1/2;
+}
+
+.section3{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr; */
+}
+.tekst_section3{
+    grid-column: 1/2;
+}
+.section4{
+    background-color:#999C87;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+/* hr styling */
+hr{
+    border-top: 1px solid white;
+}
+
+/* billeder styling */
+
+.img1{
+    width: 80%;
+    grid-column: 2/3;
+}
+.img2{
+    width: 80%;
+    grid-column: 2/3;
+}
+.img3{
+    width: 80%;
+    grid-column: 2/3;
+}
+.img4{
+    width: 80%;
+    grid-column: 2/3;
+}
+.instaikon{
+    width: 10%;
+}
