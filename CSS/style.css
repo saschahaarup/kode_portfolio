@@ -18,6 +18,13 @@ h2{
     /* font-family: 'Italiana', serif; */
     font-size: 2.5rem;
 }
+.h2forside{
+    font-family: 'Antic Didone', serif;
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    background-color:#454938 ;
+}
 
 /* header styling */
 header{
@@ -88,16 +95,28 @@ a:hover{
     background-color:#454938 ;
 
 }
-.splashtext{
-    /* position: relative; */
-    top: -400px;
-    left: 80px;
-    font-family: 'Italiana', serif;
-    font-size: 6rem;
-    color: white;
-    overflow-wrap: break-word;
 
+@media screen and (max-width: 900px) {
+    .splashtext{
+        position: relative;
+        top: -170px;
+        text-align: center;
+        font-family: 'Italiana', serif;
+        font-size: 3rem;
+        color: white;
+    }
 }
+@media screen and (min-width: 901px){
+    .splashtext{
+        position: relative;
+        top: -400px;
+        text-align: center;
+        font-family: 'Italiana', serif;
+        font-size: 6rem;
+        color: white;
+    }
+}
+
 .section1{
     background-color:#454938;
     color: white;
@@ -155,6 +174,10 @@ a:hover{
 }
 
 /* p tekster forside */
+p{
+    font-family: 'Baskervville', serif;
+}
+
 .p1{
  padding: 30px;
  grid-column: 1/2;
@@ -164,7 +187,7 @@ a:hover{
  border-color: #626453;
  border-radius: 5px;
  border-style: solid;
- /* font-family: "Baskerville"; */
+ font-family: 'Baskervville', serif;
 }
 
 .p2{
@@ -176,6 +199,7 @@ a:hover{
 
 /* boks styling forside*/ 
 .kasse{
+    display: flex;
     flex-wrap: wrap;
     width: 300px;
     height: 280px;
