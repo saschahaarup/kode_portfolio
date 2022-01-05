@@ -95,31 +95,56 @@ a:hover{
     color: white;
 }
 
+/* Tema4 side - sectioner */
+/*responsiv tekst*/
+
+@media screen and (max-width: 900px) {
+    .h2_section1{
+        position: relative;
+        top: -90px;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .h3_section1 {
+    position: relative;
+    top: -65px;
+    font-size: 1rem;
+    text-align: center;
+    }
+
+    /* hr styling max-width*/
+    .hr_section1{
+    position: relative;
+    top: -80px;
+    border: 1px solid white;
+    width: 80%; margin: 0 10% 0 10%;
+}
+}
+
+@media screen and (min-width: 901px){
 .h2_section1{
     position: relative;
-    top: -250px;
+    top: -200px;
     color: white;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .h3_section1{
     position: relative;
-    top: -168px;
+    top: -140px;
     color: white;
     text-align: center;
+    font-size: 2.5rem;
 }
-.h3_section1_2{
-    position: relative;
-    top: -150px;
-    color: white;
-    text-align: center;
-}
-/* hr styling */
+/* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -200px;
+    top: -180px;
     border: 1px solid white;
     width: 80%; margin: 0 10% 0 10%;;
+}
 }
 
 

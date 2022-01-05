@@ -93,31 +93,56 @@ a:hover{
 }
 
 /* Tema2 side - sectioner */
-
+/*responsiv tekst*/
+@media screen and (max-width: 900px) {
+    .section1_h2{
+        position: relative;
+        top: -90px;
+        color: white;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .section1_h3 {
+    position: relative;
+    top: -65px;
+    font-size: 1rem;
+    text-align: center;
+    }
+    /* hr styling max-width*/
+.hr_section1{
+    position: relative;
+    top: -80px;
+    border: 1px solid white;
+    width: 80%; margin: 0 10% 0 10%;;
+}
+  }
 .section1{
     background-color:#454938;
     color: white;
 }
-
+@media screen and (min-width: 901px){
 .section1_h2{
     position: relative;
-    top: -250px;
+    top: -200px;
     color: white;
     text-align: center;
+    font-size: 2.5rem;
 }
 
 .section1_h3{
     position: relative;
-    top: -130px;
+    top: -140px;
     color: white;
     text-align: center;
+    font-size: 2.5rem;
 }
-/* hr styling */
+/* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -200px;
+    top: -180px;
     border: 1px solid white;
     width: 80%; margin: 0 10% 0 10%;;
+}
 }
 
 .section2{

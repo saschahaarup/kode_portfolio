@@ -1,4 +1,7 @@
+// variable der refererr til button 
 const btn = document.querySelector("button");
+
+// variable der refererr til nav 
 const ul = document.querySelector("nav");
 
 function toggleMenu() {
