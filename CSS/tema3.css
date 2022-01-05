@@ -60,10 +60,12 @@ footer{
 /* a hover farve*/
 a{
     color: white;
+    text-decoration: none;
 }
 
 a:hover{
     color: rgb(180, 204, 189);
+    text-decoration: none;
 }
 
 /* forside */
@@ -106,6 +108,39 @@ a:hover{
 
 .tekst_section2{
     grid-column: 1/2;
+}
+
+.LLprototype{
+    width: 260px;
+    height: 100px;
+    background-color: #20241d;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    list-style-type: none;
+    border-radius: 15px;
+    font-family: 'Antic Didone', serif;
+    text-align: center ;
+    overflow-wrap: break-word;
+    position: relative;
+    top: -150px;
+    left: 10px;
+    padding: 10px;
+}
+.LLpitch{
+    width: 260px;
+    height: 100px;
+    background-color: #20241d;
+    color: rgb(255, 255, 255);
+    font-size: 1.4rem;
+    list-style-type: none;
+    border-radius: 15px;
+    font-family: 'Antic Didone', serif;
+    text-align: center ;
+    overflow-wrap: break-word;
+    position: relative;
+    top: -150px;
+    left: 10px;
+    padding: 10px;
 }
 .section3{
     background-color:#454938;
@@ -158,6 +193,14 @@ hr{
     grid-column: 2/3;
 }
 .img2{
+    width: 80%;
+    grid-column: 2/3;
+}
+.img3{
+    width: 80%;
+    grid-column: 2/3;
+}
+.img4{
     width: 80%;
     grid-column: 2/3;
 }
