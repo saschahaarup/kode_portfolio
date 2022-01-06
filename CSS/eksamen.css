@@ -44,10 +44,10 @@ header{
     padding: 40px;
     gap: 120px;
     list-style-type: none;
-    font-size: 18px;
+    /* font-size: 18px;
     background-color: #20241d;
     position: sticky;
-    font-family: 'Italiana', serif;
+    font-family: 'Italiana', serif; */
 }
 
 .headerlogo{
@@ -65,17 +65,17 @@ header{
 }
 
 /* footer styling */
-footer{
+/* footer{
     display: flex;
     flex-wrap: wrap;
     padding: 50px;
     gap: 140px;
     /* font-family: ; */
-    font-size: 16px;
+    /* font-size: 16px;
     background-color: #20241d;
     position: sticky;
     color: white;
-    }
+    } */ 
 
 /* a hover farve*/
 a{

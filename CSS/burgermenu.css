@@ -23,7 +23,7 @@
     }
   
     nav.shown {
-      border-top: 1px solid #000;
+      border-top: 1px solid rgb(255, 255, 255);
       padding-top: 1rem;
       display: flex;
       flex: 1 1 100%;

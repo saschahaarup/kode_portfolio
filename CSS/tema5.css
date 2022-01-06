@@ -104,19 +104,25 @@ a:hover{
         top: -90px;
         color: white;
         text-align: center;
-        font-size: 1rem;
+        font-size: 0.9rem;
     }
     .h3_section1 {
     position: relative;
-    top: -65px;
-    font-size: 1rem;
+    top: -80px;
+    font-size: 0.7rem;
     text-align: center;
     }
-
+    .h3_section1_2{
+        position: relative;
+        top: -78px;
+        color: white;
+        text-align: center;
+        font-size: 0.7rem;
+    }
     /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -80px;
+    top: -85px;
     border: 1px solid white;
     width: 80%; margin: 0 10% 0 10%;
 }
@@ -125,23 +131,31 @@ a:hover{
 @media screen and (min-width: 901px){
 .h2_section1{
     position: relative;
-    top: -200px;
+    top: -230px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .h3_section1{
     position: relative;
-    top: -140px;
+    top: -170px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 1.8rem;
 }
+.h3_section1_2{
+    position: relative;
+    top: -150px;
+    color: white;
+    text-align: center;
+    font-size: 1.8rem;
+}
+
 /* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -180px;
+    top: -200px;
     border: 1px solid white;
     width: 80%; margin: 0 10% 0 10%;;
 }
