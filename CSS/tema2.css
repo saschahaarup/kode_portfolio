@@ -40,7 +40,6 @@ a:hover{
     width: 100%;
     background-color:#454938 ;
 }
-
 /* Tema2 side - sectioner */
 /*responsiv tekst*/
 @media screen and (max-width: 900px) {
@@ -257,15 +256,4 @@ a:hover{
 .img_wood3{
     width: 100%;
 }
-}
-
-
-
-
-/* billeder styling */
-
-
-
-.instaikon{
-    width: 10%;
 }
