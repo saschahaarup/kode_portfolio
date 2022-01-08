@@ -55,6 +55,7 @@ a:hover{
         padding: 50px;
         line-height: 50px;
         display: flex;
+        gap: 30px;
         grid-template-columns: 1fr 1fr;
         flex-wrap: wrap;
     }
@@ -66,6 +67,9 @@ a:hover{
     }
     .tekst_section2{
         grid-column: 1/2;
+        font-family: 'Baskervville', serif;
+        font-size: 0.9rem;
+        text-align: justify;
     }
     .img1{
         width: 100%;
@@ -87,6 +91,7 @@ a:hover{
         color: white;
         padding: 50px;
         line-height: 50px;
+        gap: 30px;
         display: flex;
         flex-wrap: wrap;
         grid-template-columns: 1fr 1fr;
@@ -94,6 +99,9 @@ a:hover{
     .tekst_section3{
         grid-column: 2/3;
         grid-row: 2/3;
+        font-family: 'Baskervville', serif;
+        font-size: 0.9rem;
+        text-align: justify;
     }
 
     .img2{
@@ -146,7 +154,7 @@ a:hover{
         line-height: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 40px;
     }
     .h3_section2{
         font-family: 'Antic Didone', serif;
@@ -157,6 +165,9 @@ a:hover{
     }
     .tekst_section2{
         grid-column: 1/2;
+        font-family: 'Baskervville', serif;
+        font-size: 1.1rem;
+        text-align: justify;
     }
     .img1{
         width: 100%;
@@ -172,7 +183,7 @@ a:hover{
         line-height: 50px;
         display: grid;
         grid-template-columns: 1fr 1fr;
-        gap: 30px;
+        gap: 40px;
     }
     .h3_section3{
         font-family: 'Antic Didone', serif;
@@ -184,6 +195,9 @@ a:hover{
     }
     .tekst_section3{
         grid-column: 1/2;
+        font-family: 'Baskervville', serif;
+        font-size: 1.1rem;
+        text-align: justify;
     }
 
     .img2{
@@ -204,7 +218,7 @@ a:hover{
     }
     .img_wood1{
         order: 1;
-        width: 100%;
+        width: 98%;
         border: white solid 10px;
     }
     .img_wood2{
@@ -214,7 +228,7 @@ a:hover{
     }
     .img_wood3{
         order: 3;
-        width: 100%;
+        width: 99%;
         border: white solid 10px;
     }
 }
