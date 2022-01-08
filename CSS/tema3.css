@@ -4,14 +4,20 @@
     padding: 0;
   }
 
+html{
+    width:100%;
+}
+
 /* generel billede regel */
 img {
     max-width: 100%;
     object-fit: cover;
   }
 /* fonts */
-/* font-family: 'Antic Didone', serif;
-font-family: 'Italiana', serif; */
+/* 
+font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; 
+font-family: 'Baskervville', serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -23,6 +29,11 @@ h3{
     font-family: 'Antic Didone', serif;
     /* font-family: 'Italiana', serif; */
     font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Baskervville', serif;
+    line-height: 45px;
 }
 
 /* a hover farve*/
@@ -47,23 +58,25 @@ a:hover{
     }
     .h2_section1{
         position: relative;
-        top: -90px;
+        top: -80px;
         color: white;
         text-align: center;
         font-size: 1rem;
+        font-family: 'Antic Didone', serif;
     }
     .h3_section1 {
     position: relative;
-    top: -65px;
-    font-size: 1rem;
+    top: -60px;
+    font-size: 0.8rem;
+    font-family: 'Antic Didone', serif;
     text-align: center;
     }
     /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -80px;
+    top: -70px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;;
+    width: 60%; margin: 0 20% 0 20%;;
 }
 /* section 2 */
 .section2{
@@ -91,6 +104,7 @@ a:hover{
     width: 100%;
     grid-column: 2/3;
     order: 4;
+    border: white solid 20px;
 }
 .LLprototype{
     width: 180px;
@@ -131,6 +145,7 @@ a:hover{
 .img2{
     width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 /* section 4 */
 .section4{
@@ -171,6 +186,7 @@ a:hover{
 .img3{
     width: 100%;
    order: 4;
+   border: white solid 20px;
 }
 /* section 5 */
 .section5{
@@ -193,6 +209,7 @@ a:hover{
 .img4{
     width: 100%;
     order: 3;
+    border: white solid 20px;
     }
     
 /* section 6 */
@@ -207,12 +224,15 @@ a:hover{
 }
 .img1_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img2_section6{
     width: 100%;
+    border: white solid 10px;
 }
-.img2_section6{
+.img3_section6{
     width: 100%;
+    border: white solid 10px;
 }
 }
 
@@ -224,24 +244,24 @@ a:hover{
     }
     .h2_section1{
     position: relative;
-    top: -200px;
+    top: -210px;
     color: white;
     text-align: center;
     font-size: 2.5rem;
 }
     .h3_section1{
     position: relative;
-    top: -140px;
+    top: -170px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
     /* hr styling min-width*/
     .hr_section1{
     position: relative;
-    top: -180px;
+    top: -190px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;;
+    width: 60%; margin: 0 20% 0 20%;;
 }
 /* section 2 */
 .section2{
@@ -261,8 +281,10 @@ a:hover{
     font-size: 2rem;
 }
 .img1{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 2px;
+    border-radius: 20px;
 }
 .LLprototype{
     width: 260px;
@@ -298,8 +320,9 @@ a:hover{
     font-size: 2rem;
 }
 .img2{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 /* section 4 */
 .section4{
@@ -337,6 +360,7 @@ a:hover{
 .img3{
     width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 /* section 5 */
 .section5{
@@ -349,8 +373,9 @@ a:hover{
     /* grid-template-rows: 1fr 1fr; */
 }
 .img4{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
     }
 .h3_section5{
         font-size: 2rem;
@@ -371,12 +396,15 @@ a:hover{
 }
 .img1_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img2_section6{
     width: 100%;
+    border: white solid 10px;
 }
-.img2_section6{
+.img3_section6{
     width: 100%;
+    border: white solid 10px;
 }
 }
 

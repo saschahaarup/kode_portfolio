@@ -10,8 +10,10 @@ img {
     object-fit: cover;
   }
 /* fonts */
-/* font-family: 'Antic Didone', serif;
-font-family: 'Italiana', serif; */
+/* 
+font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; 
+font-family: 'Baskervville', serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -23,6 +25,11 @@ h3{
     font-family: 'Antic Didone', serif;
     /* font-family: 'Italiana', serif; */
     font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Baskervville', serif;
+    line-height: 45px;
 }
 
 /* a hover farve*/
@@ -86,10 +93,12 @@ a:hover{
 
 .tekst_section2{
     order: 2;
+    font-family: 'Baskervville', serif;
 }
 .img1{
     width: 100%;
     order: 3;
+    border: white solid 20px;
 }
 
 /* section 3 */
@@ -108,10 +117,12 @@ a:hover{
 }
 .tekst_section3{
     order: 2;
+    font-family: 'Baskervville', serif;
 }
 .img2{
     width: 100%;
     order: 3;
+    border: white solid 20px;
 }
 /* section 4 */
 .section4{
@@ -126,14 +137,17 @@ a:hover{
 .img1_section4{
     width: 100%;
     order: 1;
+    border: white solid 10px;
 }
 .img2_section4{
     width: 100%;
     order: 2;
+    border: white solid 10px;
 }
 .img3_section4{
     width: 100%;
     order: 3;
+    border: white solid 10px;
 }
 }
 
@@ -145,7 +159,7 @@ a:hover{
 }
 .h2_section1{
     position: relative;
-    top: -200px;
+    top: -210px;
     color: white;
     text-align: center;
     font-size: 2.5rem;
@@ -153,17 +167,17 @@ a:hover{
 
 .h3_section1{
     position: relative;
-    top: -140px;
+    top: -160px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 /* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -180px;
+    top: -190px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;;
+    width: 60%; margin: 0 20% 0 20%;;
 }
 /* section 2 */
 .section2{
@@ -183,10 +197,12 @@ a:hover{
 
 .tekst_section2{
     grid-column: 1/2;
+    font-family: 'Baskervville', serif;
 }
 .img1{
     width: 80%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 
 /* section 3 */
@@ -206,10 +222,12 @@ a:hover{
 }
 .tekst_section3{
     grid-column: 1/2;
+    font-family: 'Baskervville', serif;
 }
 .img2{
     width: 80%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 /* section 4 */
 .section4{
@@ -223,12 +241,15 @@ a:hover{
 }
 .img1_section4{
     width: 100%;
+    border: white solid 10px;
 }
 .img2_section4{
     width: 100%;
+    border: white solid 10px;
 }
 .img3_section4{
     width: 100%;
+    border: white solid 10px;
 }
 }
 

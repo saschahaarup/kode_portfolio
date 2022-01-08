@@ -10,8 +10,10 @@ img {
     object-fit: cover;
   }
 /* fonts */
-/* font-family: 'Antic Didone', serif;
-font-family: 'Italiana', serif; */
+/* 
+font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; 
+font-family: 'Baskervville', serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -23,6 +25,11 @@ h3{
     font-family: 'Antic Didone', serif;
     /* font-family: 'Italiana', serif; */
     font-size: 1.5rem;
+}
+
+p{
+    font-family: 'Baskervville', serif;
+    line-height: 45px;
 }
 
 /* a hover farve*/
@@ -51,30 +58,30 @@ a:hover{
 }
     .h2_section1{
         position: relative;
-        top: -90px;
+        top: -80px;
         color: white;
         text-align: center;
         font-size: 0.9rem;
     }
     .h3_section1 {
     position: relative;
-    top: -80px;
-    font-size: 0.7rem;
+    top: -65px;
+    font-size: 0.6rem;
     text-align: center;
     }
     .h3_section1_2{
         position: relative;
-        top: -78px;
+        top: -60px;
         color: white;
         text-align: center;
-        font-size: 0.7rem;
+        font-size: 0.6rem;
     }
     /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -85px;
+    top: -74px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;
+    width: 60%; margin: 0 20% 0 20%;
 }
 /* section 2 */
 .section2{
@@ -115,6 +122,8 @@ a:hover{
 .img1{
     width: 100%;
     order: 4;
+    border: white solid 2px;
+    border-radius: 20px;
 }
 /* section 3 */
 .section3{
@@ -138,6 +147,7 @@ a:hover{
 .img2{
     width: 100%;
     order: 4;
+    border: white solid 20px;
 }
 
 /* section 4 */
@@ -179,6 +189,8 @@ a:hover{
 .img3{
     width: 100%;
     order: 4;
+    border: white solid 2px;
+    border-radius: 20px;
 }
 /* section 5 */
 .section5{
@@ -200,6 +212,7 @@ a:hover{
 .img4{
     width: 100%;
     order: 3;
+    border: white solid 20px;
 }
 /* section 6 */
 .section6{
@@ -213,12 +226,15 @@ a:hover{
 }
 .img1_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img2_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img3_section6{
     width: 100%;
+    border: white solid 10px;
 }
 }
 
@@ -233,7 +249,7 @@ a:hover{
     top: -230px;
     color: white;
     text-align: center;
-    font-size: 2rem;
+    font-size: 2.2rem;
 }
 
 .h3_section1{
@@ -241,22 +257,22 @@ a:hover{
     top: -170px;
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 .h3_section1_2{
     position: relative;
     top: -150px;
     color: white;
     text-align: center;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
 }
 
 /* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -200px;
+    top: -190px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;;
+    width: 60%; margin: 0 20% 0 20%;;
 }
 /* section 2 */
 .section2{
@@ -292,8 +308,10 @@ a:hover{
     padding: 10px;
 }
 .img1{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 2px;
+    border-radius: 20px;
 }
 /* section 3 */
 .section3{
@@ -313,8 +331,9 @@ a:hover{
     grid-column: 1/2;
 }
 .img2{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 
 /* section 4 */
@@ -351,8 +370,10 @@ a:hover{
     padding: 10px;
 }
 .img3{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 2px;
+    border-radius: 20px;
 }
 /* section 5 */
 .section5{
@@ -372,8 +393,9 @@ a:hover{
     grid-column: 1/2;
 }
 .img4{
-    width: 80%;
+    width: 100%;
     grid-column: 2/3;
+    border: white solid 20px;
 }
 /* section 6 */
 .section6{
@@ -387,12 +409,15 @@ a:hover{
 }
 .img1_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img2_section6{
     width: 100%;
+    border: white solid 10px;
 }
 .img3_section6{
     width: 100%;
+    border: white solid 10px;
 }
 }
 

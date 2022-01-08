@@ -10,20 +10,27 @@ img {
     object-fit: cover;
   }
 /* fonts */
-/* font-family: 'Antic Didone', serif;
-font-family: 'Italiana', serif; */
+/* 
+font-family: 'Antic Didone', serif;
+font-family: 'Italiana', serif; 
+font-family: 'Baskervville', serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
     /* font-family: 'Italiana', serif;*/
     font-size: 2.5rem;
 }
+
 h3{
     font-family: 'Antic Didone', serif;
     /* font-family: 'Italiana', serif; */
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
+p{
+    font-family: 'Baskervville', serif;
+    line-height: 45px;
+}
 /* a hover farve*/
 a{
     color: white;
@@ -44,17 +51,21 @@ a:hover{
 /*responsiv tekst*/
 @media screen and (max-width: 900px) {
 /* section 1 */
-    .section1_h2{
+.section1{
+    background-color:#454938;
+    color: white;
+}
+.section1_h2{
     position: relative;
-    top: -90px;
+    top: -80px;
     color: white;
     text-align: center;
     font-size: 1rem;
     }
-    .section1_h3 {
+.section1_h3 {
     position: relative;
-    top: -65px;
-    font-size: 1rem;
+    top: -60px;
+    font-size: 0.8rem;
     text-align: center;
     color: white;
     }
@@ -62,9 +73,9 @@ a:hover{
 /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -80px;
+    top: -70px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;
+    width: 60%; margin: 0 20% 0 20%;
   }
 /* section 2*/
   .section2{
@@ -109,6 +120,7 @@ a:hover{
     .img1{
         width: 100%;
         order: 4;
+        border: white solid 20px;
     }
 /* section 3 */
     .section3{
@@ -129,6 +141,7 @@ a:hover{
     }
     .img2{
         width: 100%;
+        border: white solid 20px;
     }
     /* section 4 */
     .section4{
@@ -143,14 +156,17 @@ a:hover{
     .img_wood1{
         width: 100%;
         order: 1;
+        border: white solid 10px;
     }
     .img_wood2{
         width: 100%;
         order: 2;
+        border: white solid 10px;
     }
     .img_wood3{
         width: 100%;
         order: 3;
+        border: white solid 10px;
     }
 }
 @media screen and (min-width: 901px){
@@ -161,7 +177,7 @@ a:hover{
     }
 .section1_h2{
     position: relative;
-    top: -275px;
+    top: -210px;
     color: white;
     text-align: center;
     font-size: 2.5rem;
@@ -169,17 +185,21 @@ a:hover{
 
 .section1_h3{
     position: relative;
-    top: -185px;
+    top: -170px;
     color: white;
     text-align: center;
-    font-size: 2.5rem;
+    font-size: 2rem;
+}
+.img1{
+    width: 100%;
+    /* border: white solid 1px; */
 }
 /* hr styling min-width*/
 .hr_section1{
     position: relative;
-    top: -240px;
+    top: -190px;
     border: 1px solid white;
-    width: 80%; margin: 0 10% 0 10%;;
+    width: 60%; margin: 0 20% 0 20%;;
 }
 /*section 2*/
 .section2{
@@ -237,6 +257,10 @@ a:hover{
     color: white;
     font-size: 3rem;
 }
+.img2{
+    width: 100%;
+    border: white solid 20px;
+}
 /* section 4 */
 .section4{
     background-color:#999C87;
@@ -249,11 +273,14 @@ a:hover{
 }
 .img_wood1{
     width: 100%;
+    border: white solid 10px;
 }
 .img_wood2{
     width: 100%;
+    border: white solid 10px;
 }
 .img_wood3{
     width: 100%;
+    border: white solid 10px;
 }
 }
