@@ -131,22 +131,41 @@ a:hover{
     flex-wrap: wrap;
     gap: 30px;
     grid-template-columns: 1fr;
-    /* grid-template-rows: 1fr 1fr; */
 }
 .h3_section3{
-    order: 1;
+    font-size: 1rem;
+}
+.h2_section3{
     font-size: 1.5rem;
 }
 .tekst_section3{
-    order: 2;
     font-family: 'Baskervville', serif;
     font-size: 0.9rem;
     text-align: justify;
 }
 .img2{
     width: 100%;
-    order: 4;
-    /* border: white solid 20px; */
+}
+.img3{
+    width: 100%;
+}
+.img4{
+    width: 100%;
+}
+.img5{
+    width: 100%;
+}
+.img6{
+    width: 100%;
+}
+.img7{
+    width: 100%;
+}
+.img8{
+    width: 100%;
+}
+.img9{
+    width: 100%;
 }
 /* section 4 */
 .section4{
@@ -338,8 +357,27 @@ border: white solid 5px;
 }
 .img2{
     width: 100%;
-    grid-column: 2/3;
-    /* border: white solid 20px; */
+}
+.img3{
+    width: 100%;
+}
+.img4{
+    width: 100%;
+}
+.img5{
+    width: 100%;
+}
+.img6{
+    width: 100%;
+}
+.img7{
+    width: 100%;
+}
+.img8{
+    width: 100%;
+}
+.img9{
+    width: 100%;
 }
 /* section 4 */
 .section4{

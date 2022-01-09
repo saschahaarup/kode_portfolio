@@ -237,7 +237,15 @@ a:hover{
     order: 4;
 }
 /* section 5 */
+.sectionwrapper5{
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    gap: 30px;
+}
 .section5{
+    height: 1700px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -247,19 +255,60 @@ a:hover{
     gap: 30px;
 }
 .h3_section5{
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     order: 1;
 }
-.tekst_section5{
-    order: 2;
-    font-family: 'Baskervville', serif;
-    font-size: 0.9rem;
+.h2_section5{
+    font-family: 'Antic Didone', serif;
+    font-size: 1.2rem;
     text-align: justify;
 }
-.img4{
+.img5{
+    width: 100%;
+    order: 1;
+    
+}
+.img6{
+    width: 100%;
+    order: 2;
+}
+.img7{
+    width: 100%;
+    order: 5;
+}
+.img8{
+    width: 100%;
+    order: 4;
+}
+.img9{
     width: 100%;
     order: 3;
-    /* border: white solid 20px; */
+}
+.img10{
+    width: 100%;
+    order: 6;
+}
+.section5_1{
+    height: 950px;
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+.img11{
+    width: 100%;
+}
+.img12{
+    width: 100%;
+}
+.img13{
+    width: 100%;
+}
+.img14{
+    width: 100%;
 }
 /* section 6 */
 .section6{
