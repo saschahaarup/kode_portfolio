@@ -125,6 +125,7 @@ a:hover{
     left: 80px;
     padding: 10px;
     order:3;
+    box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
 
 /* section 3 */
@@ -191,6 +192,7 @@ a:hover{
     left: 80px;
     padding: 10px;
     order: 3;
+    box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
 .img3{
     width: 100%;
@@ -283,7 +285,7 @@ a:hover{
     line-height: 50px;
     display: grid;
     gap: 30px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.3fr;
     /* grid-template-rows: 1fr 1fr; */
 }
 
@@ -304,7 +306,7 @@ a:hover{
 }
 .LLprototype{
     width: 260px;
-    height: 100px;
+    height: 90px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
     font-size: 1.4rem;
@@ -316,7 +318,8 @@ a:hover{
     position: relative;
     top: -150px;
     left: 10px;
-    padding: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
 
 /* section 3 */
@@ -367,7 +370,7 @@ a:hover{
 }
 .LLpitch{
     width: 260px;
-    height: 100px;
+    height: 90px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
     font-size: 1.4rem;
@@ -379,7 +382,8 @@ a:hover{
     position: relative;
     top: -150px;
     left: 10px;
-    padding: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
 .img3{
     width: 100%;

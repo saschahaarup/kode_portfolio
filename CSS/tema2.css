@@ -105,7 +105,7 @@ a:hover{
     /* knap til responsiv side */
     .responsive_site_v2{
         width: 200px;
-        height: 80px;
+        height: 92px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
         font-size: 1.4rem;
@@ -119,6 +119,7 @@ a:hover{
         left: 70px;
         padding: 10px;
         order: 3;
+        box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
     }
     .img1{
         width: 100%;
@@ -214,7 +215,7 @@ a:hover{
     padding: 50px;
     line-height: 50px;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1.2fr;
     gap: 30px;
     /* grid-template-rows: 1fr 1fr; */
 }
@@ -234,7 +235,7 @@ a:hover{
 /* knap til responsiv side */
 .responsive_site_v2{
     width: 260px;
-    height: 100px;
+    height: 90px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
     font-size: 1.4rem;
@@ -246,7 +247,8 @@ a:hover{
     position: relative;
     top: -210px;
     left: 140px;
-    padding: 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
 /* section 3 */
 .section3{

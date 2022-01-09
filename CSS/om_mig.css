@@ -48,6 +48,18 @@ a:hover{
         display: grid;
         text-align: center;
     }
+    .h2_sectionwrapper2{
+        position: relative;
+        top: -130px;
+        font-size: 1.5rem;
+    }
+    .hr_om_mig{
+        border-top: 2px solid white;
+        position: relative;
+        top: -130px;
+        width: 60%; margin: 0 20% 0 20%;;
+
+    }
     /* section 2 */
     .section2{
         background-color:#626453;
@@ -146,6 +158,19 @@ a:hover{
         display: grid;
         text-align: center;
     }
+    .h2_sectionwrapper2{
+        position: relative;
+        top: -260px;
+        left: -35px;
+        font-size: 3rem;
+    }
+    .hr_om_mig{
+        border-top: 2px solid white;
+        position: relative;
+        top: -240px;
+        width: 60%; margin: 0 20% 0 20%;;
+
+    }
     /* section 2 */
     .section2{
         background-color:#626453;
@@ -235,9 +260,6 @@ a:hover{
 
 
 /* hr styling */
-.hr_om_mig{
-    border-top: 2px solid white;
-}
 .hr1{
     border-top: 2px solid white;
 }
