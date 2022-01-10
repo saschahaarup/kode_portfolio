@@ -87,7 +87,7 @@ a:hover{
     .h2forside{
         font-family: 'Antic Didone', serif;
         color: white;
-        font-size: 2rem;
+        font-size: 1.6rem;
         background-color:#454938;
         grid-row: 1/2;
         
@@ -100,17 +100,18 @@ a:hover{
     }
     .om_mig_knap{
         grid-row: 3/4;
-        width: 180px;
-        height: 60px;
+        width: 150px;
+        height: 50px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
-        font-size: 1.3rem;
+        font-size: 1.1rem;
         list-style-type: none;
         border-radius: 5px;
         font-family: 'Antic Didone', serif;
         position: relative;
         left: 88px;
         top: 15px;
+        padding: 0px;
         box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
     }
 
@@ -126,7 +127,7 @@ a:hover{
         .section2_h2{
         position: relative;
         top: 25px;
-        font-size: 2.5rem;
+        font-size: 2.1rem;
     }
 
     /* section 2 */
@@ -267,7 +268,7 @@ a:hover{
         position: relative;
         left: 580px;
         top: 30px;
-        padding: 20px;
+        padding: 8px;
         text-align: center;
         box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
     }

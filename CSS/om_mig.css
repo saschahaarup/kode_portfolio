@@ -41,6 +41,7 @@ a:hover{
 }
 @media screen and (max-width: 900px) {
     .sectionwrapper2{
+        height: 0px;
         background-color:#626453;
         color: white;
         padding: 50px;
@@ -62,6 +63,7 @@ a:hover{
     }
     /* section 2 */
     .section2{
+        height: 1600px;
         background-color:#626453;
         color: white;
         padding: 50px;
@@ -78,26 +80,18 @@ a:hover{
         color: white;
     }
     .tekst_section2{
-        grid-column: 1/2;
         font-family: 'Baskervville', serif;
         font-size: 0.9rem;
         text-align: justify;
     }
     .img1{
         width: 100%;
-        grid-column: 2/3;
         height: auto;
+        border: white solid 2px;
     }
+
     /* section 3 */
-    .h3_section3{
-        font-family: 'Antic Didone', serif;
-        font-size: 2rem;
-        background-color: #626453;
-        color: white;
-        line-height: 50px;
-        grid-column: 2/3;
-        grid-row: auto;
-    }
+    
     .section3{
         background-color: #626453;
         color: white;
@@ -106,21 +100,34 @@ a:hover{
         gap: 30px;
         display: flex;
         flex-wrap: wrap;
-        grid-template-columns: 1fr 1fr;
     }
-    .tekst_section3{
-        grid-column: 2/3;
-        grid-row: 2/3;
+    .h3_section3{
+        font-family: 'Antic Didone', serif;
+        font-size: 2rem;
+        background-color: #626453;
+        color: white;
+        line-height: 50px;
+    }
+    .h3CV{
+        font-family: 'Antic Didone', serif;
+        font-size: 1.3rem;
+        color: white;
+        line-height: 50px;
+    }
+    .CV{
         font-family: 'Baskervville', serif;
-        font-size: 0.9rem;
+        font-size: 1rem;
         text-align: justify;
     }
-
-    .img2{
-        width: 100%;
-        grid-column: 1/2;
-        grid-row: 2/3;
-        height: auto;
+    .CV2{
+        font-family: 'Baskervville', serif;
+        font-size: 1rem;
+        text-align: justify;
+    }
+    .CV3{
+        font-family: 'Baskervville', serif;
+        font-size: 1rem;
+        text-align: justify;
     }
 
     /* section 4 */
@@ -135,17 +142,20 @@ a:hover{
         flex-wrap: wrap;
         justify-content: space-between;
     }
-    .img_wood1{
+    .img3{
         order: 1;
         width: 100%;
+        border: white solid 2px;
     }
-    .img_wood2{
+    .img4{
         order: 2;
         width: 100%;
+        border: white solid 2px;
     }
-    .img_wood3{
+    .img5{
         order: 3;
         width: 100%;
+        border: white solid 2px;
     }
 }
 
@@ -195,20 +205,26 @@ a:hover{
         text-align: justify;
     }
     .img1{
-        width: 100%;
+        position: relative;
+        left: 140px;
+        top: -100px;
+        width: 70%;
         grid-column: 2/3;
-        border: white solid 20px;
+        border: white solid 2px;
+        /* border-radius: 10px; */
     }
     /* section 3 */
 
     .section3{
+        height: 450px;
         background-color: #626453;
         color: white;
         padding: 50px;
         line-height: 50px;
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
+        grid-template-columns: auto auto auto;
+        gap: 20px;
+        justify-content: space-between;
     }
     .h3_section3{
         font-family: 'Antic Didone', serif;
@@ -218,17 +234,31 @@ a:hover{
         line-height: 50px;
         grid-column: 1/2;
     }
-    .tekst_section3{
+    .h3CV{
+        font-family: 'Antic Didone', serif;
+        font-size: 1.5rem;
+        color: white;
+        line-height: 50px;
+        grid-column: 1/2;
+    }
+    
+    .CV{
         grid-column: 1/2;
         font-family: 'Baskervville', serif;
-        font-size: 1.1rem;
+        font-size: 1.2rem;
         text-align: justify;
     }
-
-    .img2{
-        width: 100%;
+    .CV2{
         grid-column: 2/3;
-        border: white solid 20px;
+        font-family: 'Baskervville', serif;
+        font-size: 1.2rem;
+        text-align: justify;
+    }
+    .CV3{
+        grid-column: 3/4;
+        font-family: 'Baskervville', serif;
+        font-size: 1.2rem;
+        text-align: justify;
     }
 
     /* section 4 */
@@ -241,20 +271,20 @@ a:hover{
         padding: 50px;
         justify-content: space-between;
     }
-    .img_wood1{
+    .img3{
         order: 1;
         width: 98%;
-        border: white solid 10px;
+        border: white solid 2px;
     }
-    .img_wood2{
+    .img4{
         order: 2;
         width: 100%;
-        border: white solid 10px;
+        border: white solid 2px;
     }
-    .img_wood3{
+    .img5{
         order: 3;
         width: 99%;
-        border: white solid 10px;
+        border: white solid 2px;
     }
 }
 
