@@ -618,6 +618,15 @@ a:hover{
     grid-row: 2/3;
     border: white solid 2px;
 }
+.sectionwrapper5_1{
+    height: 0px;
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 50px;
+    display: grid;
+    gap: 30px;
+}
 .section5_1{
     height: 300px;
     background-color:#626453;

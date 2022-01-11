@@ -407,7 +407,7 @@ a:hover{
     grid-row: 2/3;
 }
 .img3{
-    width: 100%;
+    width: 80%;
     grid-column: 2/3;
     border: white solid 2px;
 }
