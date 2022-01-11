@@ -13,7 +13,7 @@ img {
 /* 
 font-family: 'Antic Didone', serif;
 font-family: 'Italiana', serif; 
-font-family: 'Baskervville', serif;*/
+font-family: 'Montserrat', sans-serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -28,7 +28,7 @@ h3{
 }
 
 p{
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 45px;
 }
 /* a hover farve*/
@@ -94,7 +94,7 @@ a:hover{
 .tekst_section2{
     grid-column: 1/2;
     order: 3;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: justify;
 }
@@ -147,7 +147,7 @@ a:hover{
     font-size: 1.8rem;
 }
 .tekst_section3{
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: justify;
 }
@@ -200,7 +200,7 @@ a:hover{
 }
 .tekst_section4{
     order: 3;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: justify;
 }
@@ -340,7 +340,7 @@ border: white solid 2px;
 }
 .tekst_section2{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     text-align: justify;
 }
@@ -392,7 +392,7 @@ border: white solid 2px;
 }
 .tekst_section3{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1rem;
     text-align: justify;
 }
@@ -455,7 +455,7 @@ border: white solid 2px;
 }
 .tekst_section4{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     font-size: 1.1rem;
     text-align: justify;
 }
@@ -479,8 +479,6 @@ border: white solid 2px;
 .img10{
     width: 100%;
     grid-column: 2/3;
-    /* border: white solid 2px;
-    border-radius: 20px; */
 }
 /* section 5 */
 .section_wrapper5{

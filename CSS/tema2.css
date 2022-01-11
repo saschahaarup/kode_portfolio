@@ -13,7 +13,7 @@ img {
 /* 
 font-family: 'Antic Didone', serif;
 font-family: 'Italiana', serif; 
-font-family: 'Baskervville', serif;*/
+font-family: 'Montserrat', sans-serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -28,7 +28,7 @@ h3{
 }
 
 p{
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 45px;
 }
 /* a hover farve*/
@@ -91,7 +91,7 @@ a:hover{
 
     .tekst_section2{
         grid-column: 1/2;
-        font-family: 'Baskervville', serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
         text-align: justify;
         line-height: 50px;
@@ -146,7 +146,7 @@ a:hover{
     }
     .tekst_section3{
         grid-column: 1/2;
-        font-family: 'Baskervville', serif;
+        font-family: 'Montserrat', sans-serif;
         font-size: 0.9rem;
         text-align: justify;
     }
@@ -239,9 +239,9 @@ a:hover{
 
 .tekst_section2{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
-        font-size: 1rem;
-        text-align: justify;
+    font-family:'Montserrat', sans-serif;
+    font-size: 1rem;
+    text-align: justify;
 }
 
 .h3_section2{
@@ -288,7 +288,7 @@ background-color:#626453;
 }
 .tekst_section3{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
         font-size: 1rem;
         text-align: justify;
 }

@@ -93,7 +93,7 @@ a:hover{
 
 .tekst_section2{
     order: 2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .img1{
     width: 100%;
@@ -117,7 +117,7 @@ a:hover{
 }
 .tekst_section3{
     order: 2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .img2{
     width: 100%;
@@ -197,7 +197,7 @@ a:hover{
 
 .tekst_section2{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .img1{
     width: 100%;
@@ -222,7 +222,7 @@ a:hover{
 }
 .tekst_section3{
     grid-column: 1/2;
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
 }
 .img2{
     width: 100%;

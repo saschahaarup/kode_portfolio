@@ -13,7 +13,7 @@ img {
 /* 
 font-family: 'Antic Didone', serif;
 font-family: 'Italiana', serif; 
-font-family: 'Baskervville', serif;*/
+font-family: 'Montserrat', sans-serif;*/
 
 h2{
     font-family: 'Antic Didone', serif;
@@ -28,7 +28,7 @@ h3{
 }
 
 p{
-    font-family: 'Baskervville', serif;
+    font-family: 'Montserrat', sans-serif;
     line-height: 45px;
 }
 /* a hover farve*/
