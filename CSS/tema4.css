@@ -78,7 +78,7 @@ a:hover{
 }
 /* section 2 */
 .section2{
-    height: 2500px;
+    height: 2600px;
     background-color:#454938;
     color: white;
     padding: 50px;
@@ -217,7 +217,7 @@ a:hover{
     overflow-wrap: break-word;
     position: relative;
     top: -10px;
-    left: 40px;
+    left: 30px;
     padding: 8px;
     order: 2;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);

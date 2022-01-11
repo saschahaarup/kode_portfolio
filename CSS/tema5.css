@@ -86,7 +86,7 @@ a:hover{
 }
 /* section 2 */
 .section2{
-    height: 1600px;
+    height: 1800px;
     background-color:#454938;
     color: white;
     padding: 50px;
@@ -118,7 +118,7 @@ a:hover{
     overflow-wrap: break-word;
     position: relative;
     top: -10px;
-    left: 80px;
+    left: 60px;
     padding: 10px;
     order: 2;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
@@ -126,6 +126,7 @@ a:hover{
 .img1{
     width: 100%;
     order: 4;
+    object-fit:scale-down;
 }
 /* section 3 */
 .sectionwrapper3{
@@ -188,7 +189,7 @@ a:hover{
 
 /* section 4 */
 .section4{
-    height: 2700px;
+    height: 2900px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -220,7 +221,7 @@ a:hover{
     overflow-wrap: break-word;
     position: relative;
     top: -10px;
-    left: 55px;
+    left: 45px;
     padding: 10px;
     order: 2;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
@@ -245,7 +246,7 @@ a:hover{
     gap: 30px;
 }
 .section5{
-    height: 1700px;
+    height: 2000px;
     background-color:#626453;
     color: white;
     padding: 50px;

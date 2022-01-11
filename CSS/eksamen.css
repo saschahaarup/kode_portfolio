@@ -89,9 +89,9 @@ a:hover{
 .h2_section2{
     height: 0px;
     padding: 50px;
-    line-height: 20px;
-    text-align: center;
-    font-size: 2.5rem;
+    line-height: 50px;
+    text-align: left;
+    font-size: 2rem;
     background-color: #454938;
     color: white;
 }
@@ -192,18 +192,22 @@ a:hover{
 .img4{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img5{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img6{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img7{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 /* section 6 */
 .section6{
@@ -234,7 +238,7 @@ a:hover{
     border-radius: 5px;
     font-family: 'Antic Didone', serif;
     position: relative;
-    left: 20px;
+    left: 10px;
     top: 0px;
     padding: 25px;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
