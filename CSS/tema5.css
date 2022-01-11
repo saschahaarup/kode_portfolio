@@ -208,7 +208,7 @@ a:hover{
     text-align: justify;
 }
 .Redesign_opgaven{
-    width: 210px;
+    width: 230px;
     height: 70px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
@@ -220,7 +220,7 @@ a:hover{
     overflow-wrap: break-word;
     position: relative;
     top: -10px;
-    left: 76px;
+    left: 55px;
     padding: 10px;
     order: 2;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
@@ -520,7 +520,7 @@ a:hover{
 .Redesign_opgaven{
     grid-column: 1/2;
     grid-row: 3/4;
-    width: 300px;
+    width: 320px;
     height: 80px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
@@ -531,7 +531,7 @@ a:hover{
     text-align: center ;
     overflow-wrap: break-word;
     position: relative;
-    top: 30px;
+    top: 100px;
     left: 120px;
     padding: 12px;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
@@ -548,7 +548,7 @@ a:hover{
     grid-column: 2/3;
     grid-row: 3/4;
     position: relative;
-    top: -510px;
+    top: -710px;
     left: 10px;
     overflow: hidden;
 }

@@ -95,11 +95,13 @@ a:hover{
         font-size: 0.9rem;
         text-align: justify;
         line-height: 50px;
+        order: 3;
     }
 
     .h3_section2{
         color: white;
         font-size: 1.7rem;
+        order: 1;
     }
    
     /* knap til responsiv side */
@@ -118,7 +120,7 @@ a:hover{
         top: 1px;
         left: 25px;
         padding: 10px;
-        order: 3;
+        order: 2;
         box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
     }
     .img1{
@@ -251,7 +253,7 @@ a:hover{
 
 /* knap til responsiv side */
 .responsive_site_v2{
-    width: 280px;
+    width: 320px;
     height: 90px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
