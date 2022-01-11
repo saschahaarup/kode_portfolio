@@ -301,17 +301,17 @@ background-color:#626453;
 .img2{
     width: 92%;
     grid-column: 1/2;
-    /* border: white solid 20px; */
+    border: white solid 2px;
 }
 .img3{
     width: 91%;
     grid-column: 2/3;
-    /* border: white solid 20px; */
+    border: white solid 2px;
 }
 .img4{
     width: 100%;
     grid-column: 3/4;
-    /* border: white solid 20px; */
+    border: white solid 2px;
 }
 /* section 4 */
 .section4{

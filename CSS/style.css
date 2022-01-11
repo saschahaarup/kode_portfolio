@@ -92,10 +92,10 @@ a:hover{
         grid-row: 1/2;
         
     }
-    .h3forside{
+    .pforside{
      font-size: 0.8rem;
      color: #ffffff;
-     font-family: 'Antic Didone', serif;
+     font-family: 'Montserrat', sans-serif;
      grid-row: 2/3;
     }
     .om_mig_knap{
@@ -250,10 +250,10 @@ a:hover{
         grid-row: 1/2;
         
     }
-    .h3forside{
+    .pforside{
      font-size: 1.2rem;
      color: #ffffff;
-     font-family: 'Antic Didone', serif;
+     font-family: 'Montserrat', sans-serif;
      grid-row: 2/3;
     }
     .om_mig_knap{

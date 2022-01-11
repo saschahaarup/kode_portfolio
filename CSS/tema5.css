@@ -228,10 +228,12 @@ a:hover{
 .img3{
     width: 100%;
     order: 4;
+    object-fit:scale-down;
 }
 .img4{
     width: 100%;
     order: 5;
+    object-fit:scale-down;
 }
 /* section 5 */
 .sectionwrapper5{
@@ -258,7 +260,7 @@ a:hover{
 }
 .h2_section5{
     font-family: 'Antic Didone', serif;
-    font-size: 1.3rem;
+    font-size: 0.9rem;
     text-align: justify;
 }
 .img5{
@@ -292,6 +294,16 @@ a:hover{
     order: 6;
     border: white solid 2px;
 }
+.sectionwrapper5_1{
+    height: 0px;
+    background-color:#626453;
+    color: white;
+    padding: 50px;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
 .section5_1{
     height: 970px;
     background-color:#626453;
@@ -304,7 +316,7 @@ a:hover{
 }
 .h2_section5_1{
     font-family: 'Antic Didone', serif;
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     text-align: justify;
 }
 .img11{
@@ -512,7 +524,7 @@ a:hover{
     grid-column: 1/2;
     grid-row: 2/3;
     font-family: 'Montserrat', sans-serif;
-    font-size: 0.95rem;
+    font-size: 1rem;
     text-align: justify;
     line-height: 55px;
     
@@ -573,13 +585,13 @@ a:hover{
     grid-template-rows: auto auto;
 }
 .h3_section5{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-family: 'Antic Didone', serif;
     text-align: justify;
 }
 .h2_section5{
     font-family: 'Antic Didone', serif;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     text-align: justify;
 }
 .img5{
@@ -639,7 +651,7 @@ a:hover{
 }
 .h2_section5_1{
     font-family: 'Antic Didone', serif;
-    font-size: 1.7rem;
+    font-size: 1.3rem;
     text-align: justify;
 }
 .img11{

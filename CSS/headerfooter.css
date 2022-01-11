@@ -191,12 +191,12 @@ footer{
     /* ikoner */
 
     .twitterikon{
-    width: 28px;
+    width: 25px;
     grid-column: 1/2;
     grid-row: 2/3;
     }
     .linkedin_ikon{
-    width: 28px;
+    width: 25px;
     grid-column: 1/2;
     grid-row: 3/4;
     }

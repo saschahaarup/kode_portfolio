@@ -325,7 +325,7 @@ border: white solid 2px;
 }
 /* section 2 */
 .section2{
-    height: 1500px;
+    height: 1400px;
     background-color:#454938;
     color: white;
     padding: 50px;
@@ -341,7 +341,7 @@ border: white solid 2px;
 .tekst_section2{
     grid-column: 1/2;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
 }
 .spillet{
@@ -456,7 +456,7 @@ border: white solid 2px;
 .tekst_section4{
     grid-column: 1/2;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1.1rem;
+    font-size: 1rem;
     text-align: justify;
 }
 .dokumentationssitet{

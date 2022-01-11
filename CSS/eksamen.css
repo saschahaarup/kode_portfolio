@@ -377,6 +377,7 @@ a:hover{
 }
 /* section 4 */
 .section4{
+    height: 850px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -407,12 +408,16 @@ a:hover{
     grid-row: 2/3;
 }
 .img3{
-    width: 80%;
+    width: 60%;
+    position: relative;
+    left: 110px;
+    top: -110px;
     grid-column: 2/3;
     border: white solid 2px;
 }
 /* section 5 */
 .section5{
+    height: 700px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -440,17 +445,17 @@ a:hover{
     grid-column: 1/2;
 }
 .img4{
-    width: 100%;
+    width: 80%;
     grid-column: 1/2;
     border: white solid 2px;
 }
 .img5{
-    width: 100%;
+    width: 80%;
     grid-column: 2/3;
     border: white solid 2px;
 }
 .img6{
-    width: 100%;
+    width: 80%;
     grid-column: 3/4;
     border: white solid 2px;
 }
@@ -463,6 +468,7 @@ a:hover{
 }
 /* section 6 */
 .section6{
+    height: 300px;
     background-color:#626453;
     color: white;
     padding: 50px;

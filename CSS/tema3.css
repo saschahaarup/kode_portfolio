@@ -177,7 +177,7 @@ a:hover{
 }
 /* section 4 */
 .section4{
-    height: 1600px;
+    height: 1500px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -197,8 +197,8 @@ a:hover{
     text-align: justify;
 }
 .LLpitch{
-    width: 180px;
-    height: 50px;
+    width: 200px;
+    height: 60px;
     background-color: #20241d;
     color: rgb(255, 255, 255);
     font-size: 1.1rem;
@@ -208,9 +208,9 @@ a:hover{
     text-align: center ;
     overflow-wrap: break-word;
     position: relative;
-    top: 50px;
-    left: -70px;
-    padding: 5px;
+    top: -10px;
+    left: 60px;
+    padding: 8px;
     order: 2;
     box-shadow: 1px 1px 0px 1px rgba(255,255,255,0.82);
 }
@@ -290,7 +290,7 @@ a:hover{
 }
 /* section 2 */
 .section2{
-    height: 1300px;
+    height: 1100px;
     background-color:#454938;
     color: white;
     padding: 50px;
