@@ -143,11 +143,11 @@ a:hover{
     .kasse1{
         display: grid;
         grid-column: 1/2;
-        width: 170px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
-        font-size: 3rem;
+        font-size: 2rem;
         list-style-type: none;
         border-radius: 4px;
         font-family: 'Antic Didone', serif;
@@ -158,11 +158,11 @@ a:hover{
     .kasse2{
         display: grid;
         grid-column: 2/3;
-        width: 170px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
-        font-size: 3rem;
+        font-size: 2rem;
         list-style-type: none;
         border-radius: 4px;
         font-family: 'Antic Didone', serif;
@@ -173,11 +173,11 @@ a:hover{
     .kasse3{
         display: grid;
         grid-column: 1/2;
-        width: 170px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
-        font-size: 2.5rem;
+        font-size: 2rem;
         list-style-type: none;
         border-radius: 4px;
         font-family: 'Antic Didone', serif;
@@ -188,11 +188,11 @@ a:hover{
     .kasse4{
         display: grid;
         grid-column: 2/3;
-        width: 170px;
-        height: 150px;
+        width: 140px;
+        height: 140px;
         background-color: #20241d;
         color: rgb(255, 255, 255);
-        font-size: 2.5rem;
+        font-size: 2rem;
         list-style-type: none;
         border-radius: 4px;
         font-family: 'Antic Didone', serif;

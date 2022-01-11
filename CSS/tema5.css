@@ -59,7 +59,7 @@ a:hover{
 }
     .h2_section1{
         position: relative;
-        top: -80px;
+        top: -76px;
         color: white;
         text-align: center;
         font-size: 0.9rem;
@@ -72,7 +72,7 @@ a:hover{
     }
     .h3_section1_2{
         position: relative;
-        top: -60px;
+        top: -50px;
         color: white;
         text-align: center;
         font-size: 0.6rem;
@@ -80,7 +80,7 @@ a:hover{
     /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -74px;
+    top: -72px;
     border: 0.5px solid white;
     width: 60%; margin: 0 20% 0 20%;
 }
@@ -238,7 +238,7 @@ a:hover{
 }
 /* section 5 */
 .sectionwrapper5{
-    height: 160px;
+    height: 260px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -296,7 +296,7 @@ a:hover{
     border: white solid 2px;
 }
 .sectionwrapper5_1{
-    height: 0px;
+    height: 100px;
     background-color:#626453;
     color: white;
     padding: 50px;

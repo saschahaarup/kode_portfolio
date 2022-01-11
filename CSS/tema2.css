@@ -58,14 +58,14 @@ a:hover{
 }
 .section1_h2{
     position: relative;
-    top: -80px;
+    top: -70px;
     color: white;
     text-align: center;
     font-size: 1rem;
     }
 .section1_h3 {
     position: relative;
-    top: -60px;
+    top: -50px;
     font-size: 0.8rem;
     text-align: center;
     color: white;
@@ -74,7 +74,7 @@ a:hover{
 /* hr styling max-width*/
     .hr_section1{
     position: relative;
-    top: -70px;
+    top: -60px;
     border: 0.5px solid white;
     width: 60%; margin: 0 20% 0 20%;
   }
