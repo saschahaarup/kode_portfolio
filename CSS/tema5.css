@@ -130,7 +130,7 @@ a:hover{
 }
 /* section 3 */
 .sectionwrapper3{
-    height: 0px;
+    height: 100px;
     background-color:#454938;
     color: white;
     padding: 50px;
@@ -147,7 +147,7 @@ a:hover{
     
 }
 .h3_section3{
-    font-size: 1.5rem;
+    font-size: 1.1rem;
     order: 1;
 }
 .tekst_section3{
@@ -160,31 +160,37 @@ a:hover{
     width: 100%;
     order: 1;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img2_2{
     width: 100%;
     order: 2;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img2_3{
     width: 100%;
     order: 3;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img2_4{
     width: 100%;
     order: 4;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img2_5{
     width: 100%;
     order: 3;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img2_6{
     width: 100%;
     order: 6;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 
 /* section 4 */
@@ -268,32 +274,38 @@ a:hover{
     width: 100%;
     order: 1;
     border: white solid 2px;
+    object-fit:scale-down;
     
 }
 .img6{
     width: 100%;
     order: 2;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img7{
     width: 100%;
     order: 5;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img8{
     width: 100%;
     order: 4;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img9{
     width: 100%;
     order: 3;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img10{
     width: 100%;
     order: 6;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .sectionwrapper5_1{
     height: 100px;
@@ -306,7 +318,7 @@ a:hover{
     gap: 30px;
 }
 .section5_1{
-    height: 970px;
+    height: 1200px;
     background-color:#626453;
     color: white;
     padding: 50px;
@@ -323,18 +335,22 @@ a:hover{
 .img11{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img12{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img13{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img14{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 /* section 6 */
 .section6{
@@ -349,14 +365,17 @@ a:hover{
 .img15{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img16{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 .img17{
     width: 100%;
     border: white solid 2px;
+    object-fit:scale-down;
 }
 }
 
